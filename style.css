@@ -1,0 +1,107 @@
+body {
+    background-color: bisque;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+h1 {margin: 0px;
+    padding: 8px
+}
+
+cite > a {
+    display:inline-block;
+    
+}
+
+ul {margin: 0px;}
+
+
+body > header {
+    background-color: rgb(162, 79, 58);
+    color: aliceblue;
+    display: flex;
+    height: 6vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#nav-ul {
+    display: flex;
+    
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+
+
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid aliceblue;
+
+}
+
+body > main article {
+width: 70%;
+margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#main-content > div {
+    width: 70%;
+}
+
+form {
+text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: rgb(162, 79, 58);
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+
+}
+
+#footer-ul > div > li > a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
